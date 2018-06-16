@@ -4,12 +4,8 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
-
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
+Alan DenAdel is a Computational Biology PhD student (on the Applied Mathematics Track) and a Brown Graduate School Presidential Fellow. Prior to attending Brown, Alan worked at Illumina as a bioinformatics scientist. As an undergrad, he majored in mathematics (with minors in statistics and biology) at Pacific Lutheran University; and he now holds an MS in Bioinformatics and Genomics from the University of Oregon. Alan's current research interests include statistical theory development, machine learning applications in genomics, and reproducible research. 
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[agdenadel@gmail.com](mailto:agdenadel@gmail.com)
