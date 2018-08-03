@@ -1,3 +1,8 @@
+---
+layout: post
+title: How Google Works
+---
+
 I recently read [How Google Works](https://smile.amazon.com/How-Google-Works-Eric-Schmidt/dp/1455582328/) and found it really interesting. Usually I don't take notes when reading (maybe I should...), but I found myself marking a lot of pages to come back to later. These notes aren't at all a comprehensive representation of the book, just a collection of ideas that I found most striking.
 
 ## How Google Works
