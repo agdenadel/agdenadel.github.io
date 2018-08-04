@@ -7,8 +7,6 @@ I recently read [How Google Works](https://smile.amazon.com/How-Google-Works-Eri
 
 ## How Google Works
 
-$$a^2 + b^2 = c^2$$
-
 ### Foreword by Larry Page
 
 Larry wanted to become a professor or start a company
