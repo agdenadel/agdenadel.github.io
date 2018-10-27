@@ -8,4 +8,4 @@ Alan DenAdel is a Computational Biology PhD student (on the Applied Mathematics 
 
 ### Contact me
 
-[agdenadel@gmail.com](mailto:agdenadel@gmail.com)
+[alan_denadel@brown.edu](mailto:alan_denadel@brown.edu)
