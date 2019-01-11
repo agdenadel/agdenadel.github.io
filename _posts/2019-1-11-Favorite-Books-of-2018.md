@@ -7,15 +7,15 @@ In 2017 I set a goal of reading 52 books, and failed with only 31 books. In 201
 
 ## Favorite books (in the order that I read them)
 
-Principles by Ray Dalio
-The Rise and Fall of DODO by Neal Stephenson
-Operation Paperclip by Annie Jacobsen
-Birth of a Theorem By Cedric Villani
-Cinder by Marissa Meyer
-Educated by Tara Westover
-Bad Blood by John Carreyrou
-Born a Crime by Trevor Noah
-Sabriel by Garth Nix
+* Principles by Ray Dalio
+* The Rise and Fall of DODO by Neal Stephenson
+* Operation Paperclip by Annie Jacobsen
+* Birth of a Theorem By Cedric Villani
+* Cinder by Marissa Meyer
+* Educated by Tara Westover
+* Bad Blood by John Carreyrou
+* Born a Crime by Trevor Noah
+* Sabriel by Garth Nix
 
 
 
