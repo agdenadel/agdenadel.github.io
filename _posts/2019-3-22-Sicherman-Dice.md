@@ -4,7 +4,7 @@ title: Sicherman Dice
 ---
 
 
-[Sicherman dice](https://en.wikipedia.org/wiki/Sicherman_dice) are a "relabeling" of a standard pair of dice in such a way that their sum has the same distribution as a standard pair of dice. While a standard pair of dice is labeled with (1,2,3,4,5,6) on each of the two dice, Sicherman dice are labeled with (1,2,2,3,3,4) and (1,3,4,5,6,8). It's left as an exercise to the reader to confirm that this relabeling has the same distribution as a standard pair of dice :)
+[Sicherman dice](https://en.wikipedia.org/wiki/Sicherman_dice) are a "relabeling" of a standard pair of dice in such a way that their sum has the same distribution as a standard pair of dice (i.e. there is only 1 way to get a 2, 2 ways to get a 3, etc.). While a standard pair of dice is labeled with (1,2,3,4,5,6) on each of the two dice, Sicherman dice are labeled with (1,2,2,3,3,4) and (1,3,4,5,6,8). It's left as an exercise to the reader to confirm that this relabeling has the same distribution as a standard pair of dice :)
 
 I first learned about Sicherman dice when I was an undergrad. I learned about them from Tom Edgar, my advisor at PLU, during a topics course he taught on enumerative combinatorics.
 
