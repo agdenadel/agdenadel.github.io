@@ -16,7 +16,7 @@ $$ x + x^2 + x^3 + x^4 + x^5 + x^6 $$
 
 and the generating function for a pair of dice is 
 
-$$ (x + x^2 + x^3 + x^4 + x^5 + x^6) = x^{12} + 2x^{11} + 3x^{10} + 4x^9 + 5x^8 + 6x^7 + 5x^6 + 4x^5 + 3x^4 + 2x^3 + x^2.$$
+$$ (x + x^2 + x^3 + x^4 + x^5 + x^6)^2 = x^{12} + 2x^{11} + 3x^{10} + 4x^9 + 5x^8 + 6x^7 + 5x^6 + 4x^5 + 3x^4 + 2x^3 + x^2.$$
 
 In case you're curious, I didn't do this by hand. You can use the following Sage code (the [SageCell server](https://sagecell.sagemath.org/) can be really useful for running snippets of code like this):
 
