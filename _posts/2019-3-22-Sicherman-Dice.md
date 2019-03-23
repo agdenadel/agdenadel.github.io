@@ -18,7 +18,7 @@ and the generating function for a pair of dice is
 
 $$ (x + x^2 + x^3 + x^4 + x^5 + x^6)^2 = x^{12} + 2x^{11} + 3x^{10} + 4x^9 + 5x^8 + 6x^7 + 5x^6 + 4x^5 + 3x^4 + 2x^3 + x^2.$$
 
-In case you're curious, I didn't do this by hand. You can use the following Sage code (the [SageCell server](https://sagecell.sagemath.org/) can be really useful for running snippets of code like this):
+The idea in generating functions is that each monomial is a placeholder and the coefficient of that monomial is a count. For a die the generating function has all coefficients of 1 because each number occurs on only one face of the die. For the sum of two dice, you can see that each coefficient corresponds to the number of ways each value can occur as a sum (where the exponent is the value of interest. In case you're curious, I didn't multiply this out by hand. You can use the following Sage code (the [SageCell server](https://sagecell.sagemath.org/) can be really useful for running snippets of code like this):
 
 ~~~~
 var('x')
