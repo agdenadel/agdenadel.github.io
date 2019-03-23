@@ -16,7 +16,7 @@ $$ x + x^2 + x^3 + x^4 + x^5 + x^6 $$
 
 and the generating function for a pair of dice is 
 
-$$ (x + x^2 + x^3 + x^4 + x^5 + x^6) = x^12 + 2*x^11 + 3*x^10 + 4*x^9 + 5*x^8 + 6*x^7 + 5*x^6 + 4*x^5 + 3*x^4 + 2*x^3 + x^2.$$
+$$ (x + x^2 + x^3 + x^4 + x^5 + x^6) = x^{12} + 2x^{11} + 3x^{10} + 4x^9 + 5x^8 + 6x^7 + 5x^6 + 4x^5 + 3x^4 + 2x^3 + x^2.$$
 
 In case you're curious, I didn't do this by hand. You can use the following Sage code (the [SageCell server](https://sagecell.sagemath.org/) can be really useful for running snippets of code like this):
 
@@ -34,7 +34,7 @@ factor(x^12 + 2*x^11 + 3*x^10 + 4*x^9 + 5*x^8 + 6*x^7 + 5*x^6 + 4*x^5 + 3*x^4 + 
 
 Which gives you
 
-$$(x^2 + x + 1)^2*(x^2 - x + 1)^2*(x + 1)^2*x^2.$$
+$$(x^2 + x + 1)^2(x^2 - x + 1)^2(x + 1)^2x^2.$$
 
 This doesn't quite give us the Sicherman dice. We need a split this factorization into two parts: each being a polynomial with coefficients that sum to 6 whose product is the same as the generating function for the pair of normal dice. We can decompose the factorization above as follows
 
