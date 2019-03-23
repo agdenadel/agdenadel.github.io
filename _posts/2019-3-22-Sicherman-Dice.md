@@ -44,4 +44,4 @@ and
 
 $$x(x+1)(x^2 + x +1)(x^2 - x + 1)^2 = x + x^3 + x^4 + x^5 + x^6 + x^8.$$
 
-This is the only way to do this (you can check alternative choices for which factors you choose). 
+This is the only way to do this (you can check alternative choices for which factors you choose) and corresponds to the dice described at the start of this post: (1,2,2,3,3,4) and (1,3,4,5,6,8).
