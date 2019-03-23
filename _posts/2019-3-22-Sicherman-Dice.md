@@ -8,7 +8,7 @@ title: Sicherman Dice
 
 I first learned about Sicherman dice when I was an undergrad. I learned about them from Tom Edgar, my advisor at PLU, during a topics course he taught on enumerative combinatorics.
 
-Tom taught the course with what he called the modified Moore method. Every few weeks he would hand out a list of problems (a "chapter"). The job of the students was to take the problems home, look them over, and try to solve them. We would then present our solutions in class to each other. Tom did minimal lecturing and only rarely presented a problem himself. Each chapter was on a different set of techniques in combinatorics. We started with the very basics of counting using combinations and permutations and worked our way up to more sophisticated techniques, like generating functions. Generating functions are the technique we can use to generate the Sicherman dice.
+Tom taught the course with what he called the modified Moore method. Every few weeks he would hand out a list of problems (a "chapter"). The job of the students was to take the problems home, look them over, and try to solve them. We would then present our solutions in class to each other. Tom did minimal lecturing and only rarely presented a problem himself. Each chapter was on a different set of techniques in combinatorics. We started with the very basics of counting using combinations and permutations and worked our way up to more sophisticated techniques, like generating functions. These are a technique we can use to generate the Sicherman dice.
 
 The generating function for a die is 
 
