@@ -1,3 +1,8 @@
+---
+layout: post
+title: Eigenvalue Proeprties
+---
+
 When I took the math subject GRE I learned that in order to solve common linear algebra questions on the exam quickly, you should keep in mind a few facts about eigenvalues.
 
 * The product of the eigenvalues of a matrix equals the determinant of the matrix
