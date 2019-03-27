@@ -6,9 +6,11 @@ When I took the math subject GRE I learned that in order to solve common linear 
 
 I'm going to prove each of these facts.
 
-1. (product of eigenvalues equals determinant) Thinking back to your linear algebra, remember that we compute the characteristic polynomial by expanding \\(\det(A - \lambda I)\\). Since the eigenvalues, \\(\lambda_1, ..., \lambda_n\\), are the roots of the characteristic polynomial, we can factor it as follows
+## Product of eigenvalues equals determinant)
 
-$$\det(A-\lambda-I) = (\lambda_1 - \lambda) ... (\lambda_n - \lambda).$$
+Thinking back to your linear algebra, remember that we compute the characteristic polynomial by expanding \\(\det(A - \lambda I)\\). Since the eigenvalues, \\(\lambda_1, ..., \lambda_n\\), are the roots of the characteristic polynomial, we can factor it as follows
+
+$$\det(A-\lambdaI) = (\lambda_1 - \lambda) ... (\lambda_n - \lambda).$$
 
 If we set \\(\lambda = 0\\) we get
 
@@ -16,19 +18,23 @@ $$\det(A) = \lambda_1 \cdot ... \cdot \lambda_n.$$
 
 Which shows that the product of the eigenvalues of a matrix equals its determinant (and this is the constant term for the characteristic polynomial).
 
-2. (sum of eigenvalues equals trace) Again, we can find the characteristic polynomial
+## Sum of eigenvalues equals trace
+
+Again, we can find the characteristic polynomial
 
 $$\det(A-\lambda-I) = (\lambda_1 - \lambda) ... (\lambda_n - \lambda)$$
 
-$$ (-1)^n \lambda^n + (\lambda_1 + ... + \lambda_n) \lambda^{n-1} + ... + (-1)^n \det(A)).$$
+$$ (-1)^n (\lambda^n + (\lambda_1 + ... + \lambda_n) \lambda^{n-1} + ... + (-1)^n \det(A)).$$
 
 Notice that the coefficient of \\(\lambda^{n-1}\\) is the sum of the eigenvalues, but this term is also the trace of \\(A\\) (look at the characteristic polynomial of a \\(2 \times 2\\) matrix for an example).
 
-3. (inverse has reciprocal eigenvalues) This is pretty simple. Remember that an eigenvalue satisfies
+## Inverse has reciprocal eigenvalues
+
+This is pretty simple. Remember that an eigenvalue satisfies
 
 $$A x = \lambda x$$
 
-multiplying by $A^{-1}$ yields
+multiplying by \\(A^{-1}\\) yields
 
 $$x = \lambda A^{-1} x$$
 
