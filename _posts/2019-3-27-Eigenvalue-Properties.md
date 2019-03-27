@@ -10,7 +10,7 @@ I'm going to prove each of these facts.
 
 Thinking back to your linear algebra, remember that we compute the characteristic polynomial by expanding \\(\det(A - \lambda I)\\). Since the eigenvalues, \\(\lambda_1, ..., \lambda_n\\), are the roots of the characteristic polynomial, we can factor it as follows
 
-$$\det(A-\lambdaI) = (\lambda_1 - \lambda) ... (\lambda_n - \lambda).$$
+$$\det(A-\lambda I) = (\lambda_1 - \lambda) ... (\lambda_n - \lambda).$$
 
 If we set \\(\lambda = 0\\) we get
 
