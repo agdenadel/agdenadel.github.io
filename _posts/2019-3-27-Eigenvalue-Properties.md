@@ -1,5 +1,3 @@
-Eigenvalues
-
 When I took the math subject GRE I learned that in order to solve common linear algebra questions on the exam quickly, you should keep in mind a few facts about eigenvalues
 
 * The product of the eigenvalues of a matrix equals the determinant of the matrix
@@ -22,7 +20,7 @@ Which shows that the product of the eigenvalues of a matrix equals its determina
 
 $$\det(A-\lambda-I) = (\lambda_1 - \lambda) ... (\lambda_n - \lambda)$$
 
-$$ (-1)^n \lamdba^n + (\lambda_1 + ... + \lambda_n) \lambda^{n-1} + ... + (-1)^n \det(A)).$$
+$$ (-1)^n \lambda^n + (\lambda_1 + ... + \lambda_n) \lambda^{n-1} + ... + (-1)^n \det(A)).$$
 
 Notice that the coefficient of $\lambda^{n-1}$ is the sum of the eigenvalues, but this term is also the trace of $A$ (look at the characteristic polynomial of a $2 \times 2$ matrix for an example).
 
