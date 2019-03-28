@@ -11,7 +11,7 @@ When I took the math subject GRE I learned that in order to solve common linear 
 
 I'm going to prove each of these facts.
 
-## Product of eigenvalues equals determinant)
+## Product of eigenvalues equals determinant
 
 Thinking back to your linear algebra, remember that we compute the characteristic polynomial by expanding \\(\det(A - \lambda I)\\). Since the eigenvalues, \\(\lambda_1, ..., \lambda_n\\), are the roots of the characteristic polynomial, we can factor it as follows
 
