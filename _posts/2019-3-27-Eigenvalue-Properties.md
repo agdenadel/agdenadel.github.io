@@ -29,9 +29,9 @@ Again, we can find the characteristic polynomial
 
 $$\det(A-\lambda-I) = (\lambda_1 - \lambda) ... (\lambda_n - \lambda)$$
 
-$$ (-1)^n (\lambda^n + (\lambda_1 + ... + \lambda_n) \lambda^{n-1} + ... + (-1)^n \det(A)).$$
+$$ = (-1)^n (\lambda^n + (\lambda_1 + ... + \lambda_n) \lambda^{n-1} + ... + (-1)^n \det(A)).$$
 
-Notice that the coefficient of \\(\lambda^{n-1}\\) is the sum of the eigenvalues, but this term is also the trace of \\(A\\) (look at the characteristic polynomial of a \\(2 \times 2\\) matrix for an example).
+Notice that the coefficient of \\(\lambda^{n-1}\\) is the sum of the eigenvalues, but this term is also the trace of \\(A\\) (look at the characteristic polynomial of a \\(2 \times 2\\) matrix for an example). This is more of a proof sketch, but it's essentially the same idea of manipulating the characteristic polynomial and making an observation about it.
 
 ## Inverse has reciprocal eigenvalues
 
