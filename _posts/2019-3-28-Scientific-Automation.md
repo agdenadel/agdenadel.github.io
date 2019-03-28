@@ -12,6 +12,6 @@ Regardless, I can imagine a future where I, as someone unskilled and untrained i
 
 There's also some work towards getting robotics in your own lab. There's a startup called [OpenTrons](https://opentrons.com/) that builds pipetting robots, and I guess they are supposed to be drastically cheaper than the current alternatives, like [Hamilton](https://www.hamiltoncompany.com/).
 
-On a somewhat related note with regards to scientific instruments there are also open-source scientific instruments. There's the [OpenPCR](https://openpcr.org/) and there are groups that have open-sourced there instruments, for [example](https://liorpachter.wordpress.com/2019/01/18/open-sourcing-bioinstruments/).
+On a somewhat related note with regards to scientific instruments there are also open-source scientific instruments. There's the [OpenPCR](https://openpcr.org/) instrument and there are groups that have open-sourced their instruments, for [example](https://liorpachter.wordpress.com/2019/01/18/open-sourcing-bioinstruments/).
 
 As a final note, there's a cool new [master's program](http://msas.cbd.cmu.edu/) in automated science at Carnegie Mellon that is meant to train scientists and engineers that are equipped to operate in this environment and that are skilled at using common instruments for automation, design principles for automation, algorithmic methods for experimental design and selection, and methods for data analysis.
