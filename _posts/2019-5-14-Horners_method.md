@@ -17,7 +17,7 @@ $$p(x) = a_0 + a_1 x + a_2 x^2 + ... + a_n x^n$$
 
 can be rewritten as
 
-$$p(x) = a_0 + x (a_1 + x (a_2 + x(a_2 + ... + x(a_{n-1} + xa_n) ... ))).$$
+$$p(x) = a_0 + x (a_1 + x (a_2 + x(a_3 + ... + x(a_{n-1} + xa_n) ... ))).$$
 
 This gives you a natural way to compute \\(p(x)\\) using \\(n\\) multiplications and \\(n\\) additions: you just compute directly starting with the most nested term. In a more explicit way, we define the following variables
 
