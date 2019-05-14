@@ -9,7 +9,7 @@ So what is Horner's method? If you have a polynomial \\(p\\), written as
 
 $$p(x) = a_0 + a_1 x + a_2 x^2 + ... + a_n x^n$$
 
-we could naively compute \\(p(x)\\) for a given value of \\(x\\) by simply plugging the value of \\(x\\) into this equation. What is the computational complexity of this algorithm? Without considering efficient ways of computing powers of a number, there are \\( (n+1) + (n-1) + (n-2) + ... + 2 + 1\\) multiplications (\\(n+1\\) for multiplying by the coefficients and the rest are for computing powers of \\(x\\)) and \\(n\\) additions.
+we could naively compute \\(p(x)\\) for a given value of \\(x\\) by simply plugging the value of \\(x\\) into this equation. What is the computational complexity of this algorithm? Without considering efficient ways of computing powers of a number, there are \\( n + (n-1) + (n-2) + ... + 2 + 1\\) multiplications (\\(n\\) for multiplying by the coefficients and the rest are for computing powers of \\(x\\)) and \\(n\\) additions.
 
 If we're clever about how we rearrange things, we can reduce this to only \\(n\\) multiplications and \\(n\\) additions. Notice that 
 
