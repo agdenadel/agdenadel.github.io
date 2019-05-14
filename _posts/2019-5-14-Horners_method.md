@@ -21,11 +21,6 @@ $$p(x) = a_0 + x (a_1 + x (a_2 + x(a_3 + ... + x(a_{n-1} + xa_n) ... ))).$$
 
 This gives you a natural way to compute \\(p(x)\\) using \\(n\\) multiplications and \\(n\\) additions: you just compute directly starting with the most nested term. In a more explicit way, we define the following variables
 
-$$b_n = a_n$$
-
-$$b_{n-1} = a_{n-1} + b_n x$$
-$$b_{n-1} = a_{n-2} + b_{n-1} x$$
-$$\vdots$$
-$$b_0 = a_0 + b_1 x.$$
+$$b_n = a_n \\ b_{n-1} = a_{n-1} + b_n x \\ b_{n-1} = a_{n-2} + b_{n-1} x \\ \vdots \\b_0 = a_0 + b_1 x.$$
 
 If we compare this sequence with the definition of \\(p(x)\\) we can see that \\(b_0 = p(x)\\). This gives us a nice way to evaluate polynomials efficiently.
