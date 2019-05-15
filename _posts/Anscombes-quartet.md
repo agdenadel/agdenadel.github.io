@@ -24,7 +24,7 @@ Anscombe's quartet is an interesting collection of four datasets that have nearl
 
 Notice that datasets 1-3 have the same \\(x\\) values, with varying \\(y\\) values. Let's plot the data and check some of these metrics. First, here is an image of the four datasets plotted in scatterplots. 
 
-![Scatterplots for Anscombe's quartet](/images/anscombes_quartet.png)
+![Scatterplots for Anscombe's quartet](../images/anscombes_quartet.png)
 
 Also, here is a Python script that plots the data, computes some basic metrics, and computes the linear regression model for each dataset.
 
