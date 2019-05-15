@@ -3,7 +3,7 @@ layout: post
 title: Horner's method
 ---
 
-I recently came across Horner's method for the first time. It's a simple algorithm for evaluating polynomials at a point and is a good example of why we don't necessarily compute by definition. For example: matrix operations (multiplications, inverses) are often done (under the hood) in ways that don't follow the definitions or methods you might learn in your first linear algebra class.
+I recently came across Horner's method for the first time. It's a simple algorithm for evaluating polynomials at a point and is a good example of why we don't necessarily compute by using a definition directly (or by using the simplest method, or a method that is intuitive). For example: matrix operations (multiplications, inverses) are often done (under the hood) in ways that don't follow the definitions or methods you might learn in your first linear algebra class.
 
 So what is Horner's method? If you have a polynomial \\(p\\), written as
 
