@@ -27,7 +27,7 @@ Which shows that the product of the eigenvalues of a matrix equals its determina
 
 Again, we can find the characteristic polynomial
 
-$$\det(A-\lambda-I) = (\lambda_1 - \lambda) ... (\lambda_n - \lambda)$$
+$$\det(A-\lambda I) = (\lambda_1 - \lambda) ... (\lambda_n - \lambda)$$
 
 $$ = (-1)^n (\lambda^n + (\lambda_1 + ... + \lambda_n) \lambda^{n-1} + ... + (-1)^n \det(A)).$$
 
