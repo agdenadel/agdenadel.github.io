@@ -47,6 +47,61 @@ for all \\(x \geq 0\\). It is straightforward (using algebra) to show that
 $$F^{-1}(y) = - \frac{\log(1-y)}{\lambda}.$$
 
 
+## Example of inverse transform sampling
+
+The following code shows inverse transform sampling in action for the exponential distribution. First, we import the Python modules we need
+
+```python
+import matplotlib.pyplot as plt
+import numpy as np
+```
+
+Next, lets sample from an exponential distribution (with parameter 1) and take a look at what the histogram looks like.
+
+```python
+n = 10000
+exponential_samples = np.random.exponential(1,n)
+plt.hist(exponential_samples)
+plt.show()
+```
+
+Here is what the exponential distribution looks like when we sample from it directly using NumPy.
+
+![Histogram for the exponential distribution](/images/exponential_distribution.png)
+
+Next, we define the quantile function for the exponential distribution.
+
+```python
+def quantile_exponential_distribution(lambda_param, y):
+    return -np.log(1-y) / lambda_param
+```
+
+In order to use inverse transform sampling, we need to sample from a normal distribution, which we can do easily using NumPy.
+
+```python
+uniform_samples = np.random.uniform(0,1,n)
+plt.hist(uniform_samples)
+plt.show()
+```
+
+Here is what the uniform distribution looks like when we sample from it using NumPy.
+
+![Histogram for the uniform distribution](/images/uniform_distribution.png)
+
+Finally, we can transform the uniform samples using our quantile function to obtain exponential samples.
+
+```python
+transformed_exponential_samples = quantile_exponential_distribution(lambda_param=1, y=uniform_samples)
+plt.hist(transformed_exponential_samples)
+plt.show()
+```
+
+Here is what the transformed distribution looks like.
+
+![Histogram for the transformed exponential distribution](/images/transformed_exponential_distribution.png)
+
+This is exactly what the exponential distribution looks like.
+
 
 ## Computational considerations
 
