@@ -11,16 +11,13 @@ The key insight is to notice that if \\(X\\) is a continuous random variable wit
 
 ## The CDF has a uniform distribution
 
-Let's prove the fact that \\(F_X\\) is distributed uniformly on \\([0,1]\\). We'll assume that \\(F_X\\) is strictly increasing so that we don't have to worry about how we define its inverse (if you don't make this assumption you can define \\(F^{-1}(y) = \inf \{x : F(x) \geq y\}\\)). This assumption means that \\(F_X^{-1}\\) is well-defined. Let \\(Y = F_X(x)\\). Consider
+Let's prove the fact that \\(F_X\\) is distributed uniformly on \\([0,1]\\). We'll assume that \\(F_X\\) is strictly increasing so that we don't have to worry about how we define its inverse (if you don't make this assumption you can define \\(F^{-1}(y) = \inf \\{x : F(x) \geq y\\}\\)). This assumption means that \\(F_X^{-1}\\) is well-defined. Let \\(Y = F_X(x)\\). Consider
 
-$$F_Y(y) = P(Y \leq y)$$
-$$ = P(F_X(x) \leq y)$$
+$$F_Y(y) = P(Y \leq y) \\ = P(F_X(x) \leq y)$$
 
 and since we have an inverse
 
-$$ = P(x \leq F_X^{-1}(y))$$
-$$ = F_X(F_X^{-1} (y))$$
-$$ = y.$$
+$$ = P(x \leq F_X^{-1}(y)) \\ = F_X(F_X^{-1} (y)) \\ = y.$$
 
 Notice that this is exactly the cdf of a uniform distribution and so \\(Y = F_X(x)\\) is distributed uniformly.
 
