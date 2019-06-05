@@ -12,8 +12,11 @@ The Neyman-Pearson Lemma is a fundamental result in the theory of hypothesis tes
 Before stating the lemma, we need to know some basic metrics for judging the performance of a binary classifier. The binary classification problem is this: given an observation, \\(X\\) we want to predict the class of this observation, \\(Y \in \{1,2\}\\). A classifier is a function \\(h\\) that predicts the class of a given observation. There are four probabilities that we care about when predicting classes
 
 $$P(h(X) = 1 | Y=1)$$
+
 $$P(h(X) = 2 | Y=1)$$
+
 $$P(h(X) = 1 | Y=2)$$
+
 $$P(h(X) = 2 | Y=2)$$
 
 There are different names for these probabilities. The Neyman-Pearson lemma is concerned with two of them. The first, \\(P(h(X)=2|Y=2)\\), is often called the discovery rate (DR) or the power. We will call it the DR. The second, \\(P(h(X)=2|Y=1)\\), is often called the false alarm rate (FAR) or Type I Error. We will call it the FAR. Notice that with the FAR and the DR we can easily determine the other probabilities (since two pairs must add up to 1).
@@ -36,8 +39,11 @@ Let \\(h(x) \rightarrow \{1,2\}\\) be any classification function. Then \\(DR(h)
 First, we notice that we can partition the space into 4 parts:
 
 $$A = \{ x : h(x) = h_t(x) = 2 \}$$
+
 $$B = \{ x : h(x) = 2, h_t(x) = 1 \}$$
+
 $$C = \{ x : h(x) = 1, h_t(x) = 2 \}$$
+
 $$D = \{ x : h(x) = h_t(x) = 1 \}.$$
 
 Then,
