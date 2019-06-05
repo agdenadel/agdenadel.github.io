@@ -48,8 +48,9 @@ $$D = \\{ x : h(x) = h_t(x) = 1 \\}.$$
 
 Then,
 
-$$FAR(h) = P(h(X)=2\|Y=1) = P(X \in A \cup B \| Y = 1)$$
-$$FAR(h_T) = P(h_(X)=2\|Y=1) = P(X \in A \cup C \| Y = 1).$$
+$$FAR(h) = P(h(X)=2|Y=1) = P(X \in A \cup B | Y = 1)$$
+
+$$FAR(h_T) = P(h_(X)=2|Y=1) = P(X \in A \cup C | Y = 1).$$
 
 By assumption, \\(FAR(h) \leq FAR(h_t)\\), so 
 
