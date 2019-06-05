@@ -95,9 +95,9 @@ This is what we wanted to prove.
 
 Something I'm interested in looking into is the sequential probability ratio test. This is a generalization of the Neyman-Pearson lemma for sequential hypothesis testing (sequential analysis). Here are a few links if this interests you:
 
-1. https://en.wikipedia.org/wiki/Sequential_analysis
-2. https://en.wikipedia.org/wiki/Sequential_probability_ratio_test
-3. https://www.evanmiller.org/sequential-ab-testing.html
+1. [https://en.wikipedia.org/wiki/Sequential_analysis](https://en.wikipedia.org/wiki/Sequential_analysis)
+2. [https://en.wikipedia.org/wiki/Sequential_probability_ratio_test](https://en.wikipedia.org/wiki/Sequential_probability_ratio_test)
+3. [https://www.evanmiller.org/sequential-ab-testing.html](https://www.evanmiller.org/sequential-ab-testing.html)
 
 
 
