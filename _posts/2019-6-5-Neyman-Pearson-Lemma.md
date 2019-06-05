@@ -25,7 +25,7 @@ There are different names for these probabilities. The Neyman-Pearson lemma is c
 
 ## Neyman-Pearson Lemma
 
-We are now ready to state the lemma. Denote the conditional densities \\(f(X|Y=i) = f_i(x)\\). For \\(t > 0\\) define a classifier (with parameter \\(t\\)) by
+We are now ready to state the lemma. Denote the conditional densities \\(f(X\|Y=i) = f_i(x)\\). For \\(t > 0\\) define a classifier (with parameter \\(t\\)) by
 
 $$h_t(x) = \begin{cases}
 1 \text{ if } f_2(x) \leq t f_1(x) \\
@@ -48,8 +48,8 @@ $$D = \\{ x : h(x) = h_t(x) = 1 \\}.$$
 
 Then,
 
-$$FAR(h) = P(h(X)=2|Y=1) = P(X \in A \cup B | Y = 1)$$
-$$FAR(h_T) = P(h_(X)=2|Y=1) = P(X \in A \cup C | Y = 1).$$
+$$FAR(h) = P(h(X)=2\|Y=1) = P(X \in A \cup B \| Y = 1)$$
+$$FAR(h_T) = P(h_(X)=2\|Y=1) = P(X \in A \cup C \| Y = 1).$$
 
 By assumption, \\(FAR(h) \leq FAR(h_t)\\), so 
 
