@@ -19,7 +19,7 @@ $$P(h(X) = 1 | Y=2)$$
 
 $$P(h(X) = 2 | Y=2)$$
 
-There are different names for these probabilities. The Neyman-Pearson lemma is concerned with two of them. The first, \\(P(h(X)=2|Y=2)\\), is often called the discovery rate (DR) or the power. We will call it the DR. The second, \\(P(h(X)=2|Y=1)\\), is often called the false alarm rate (FAR) or Type I Error. We will call it the FAR. Notice that with the FAR and the DR we can easily determine the other probabilities (since two pairs must add up to 1).
+There are different names for these probabilities. The Neyman-Pearson lemma is concerned with two of them. The first, \\(P(h(X)=2\|Y=2)\\), is often called the discovery rate (DR) or the power. We will call it the DR. The second, \\(P(h(X)=2\|Y=1)\\), is often called the false alarm rate (FAR) or Type I Error. We will call it the FAR. Notice that with the FAR and the DR we can easily determine the other probabilities (since two pairs must add up to 1).
 
 
 
@@ -28,8 +28,8 @@ There are different names for these probabilities. The Neyman-Pearson lemma is c
 We are now ready to state the lemma. Denote the conditional densities \\(f(X|Y=i) = f_i(x)\\). For \\(t > 0\\) define a classifier (with parameter \\(t\\)) by
 
 $$h_t(x) = \begin{cases}
-1 text{ if } f_2(x) \leq t f_1(x) \\
-2 text{ if } f_2(x) > t f_2(x) 
+1 \text{ if } f_2(x) \leq t f_1(x) \\
+2 \text{ if } f_2(x) > t f_2(x) 
 \end{cases}.$$
 
 Let \\(h(x) \rightarrow \\{1,2\\}\\) be any classification function. Then \\(DR(h) \leq DR(h_t)\\) if \\(FAR(h) \leq FAR(h_t)\\).
