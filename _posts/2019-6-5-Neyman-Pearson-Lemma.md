@@ -9,7 +9,7 @@ The Neyman-Pearson Lemma is a fundamental result in the theory of hypothesis tes
 
 ## Performance of a classifier
 
-Before stating the lemma, we need to know some basic metrics for judging the performance of a binary classifier. The binary classification problem is this: given an observation, \\(X\\) we want to predict the class of this observation, \\(Y \in \{1,2\}\\). A classifier is a function \\(h\\) that predicts the class of a given observation. There are four probabilities that we care about when predicting classes
+Before stating the lemma, we need to know some basic metrics for judging the performance of a binary classifier. The binary classification problem is this: given an observation, \\(X\\) we want to predict the class of this observation, \\(Y \in \\{1,2\\}\\). A classifier is a function \\(h\\) that predicts the class of a given observation. There are four probabilities that we care about when predicting classes
 
 $$P(h(X) = 1 | Y=1)$$
 
@@ -32,19 +32,19 @@ $$h_t(x) = \begin{cases}
 2 text{ if } f_2(x) > t f_2(x) 
 \end{cases}.$$
 
-Let \\(h(x) \rightarrow \{1,2\}\\) be any classification function. Then \\(DR(h) \leq DR(h_t)\\) if \\(FAR(h) \leq FAR(h_t)\\).
+Let \\(h(x) \rightarrow \\{1,2\\}\\) be any classification function. Then \\(DR(h) \leq DR(h_t)\\) if \\(FAR(h) \leq FAR(h_t)\\).
 
 ## Proof
 
 First, we notice that we can partition the space into 4 parts:
 
-$$A = \{ x : h(x) = h_t(x) = 2 \}$$
+$$A = \\{ x : h(x) = h_t(x) = 2 \\}$$
 
-$$B = \{ x : h(x) = 2, h_t(x) = 1 \}$$
+$$B = \\{ x : h(x) = 2, h_t(x) = 1 \\}$$
 
-$$C = \{ x : h(x) = 1, h_t(x) = 2 \}$$
+$$C = \\{ x : h(x) = 1, h_t(x) = 2 \\}$$
 
-$$D = \{ x : h(x) = h_t(x) = 1 \}.$$
+$$D = \\{ x : h(x) = h_t(x) = 1 \\}.$$
 
 Then,
 
