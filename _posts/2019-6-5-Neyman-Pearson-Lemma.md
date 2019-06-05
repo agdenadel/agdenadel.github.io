@@ -92,6 +92,12 @@ This is what we wanted to prove.
 
 
 
+## Hypothesis testing
+
+When thinking about hypothesis tests, the Neyman-Pearson lemma applies to tell us that a likelihood ratio test is the the most powerful hypothesis test for a given significance level \\(\alpha\\). The reason why likelihood ratio tests aren't the only tests we use is that the relationship between \\(\alpha\\) and \\(t\\) is not always clear (i.e. we don't always know how to calibrate the test).
+
+
+
 ## Generalization
 
 Something I'm interested in looking into is the sequential probability ratio test. This is a generalization of the Neyman-Pearson lemma for sequential hypothesis testing (sequential analysis). Here are a few links if this interests you:
