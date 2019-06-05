@@ -38,13 +38,13 @@ Let \\(h(x) \rightarrow \\{1,2\\}\\) be any classification function. Then \\(DR(
 
 First, we notice that we can partition the space into 4 parts:
 
-$$A = \\\{ x : h(x) = h_t(x) = 2 \\\}$$
+$$A = \{ x : h(x) = h_t(x) = 2 \}$$
 
-$$B = \\\{ x : h(x) = 2, h_t(x) = 1 \\\}$$
+$$B = \{ x : h(x) = 2, h_t(x) = 1 \}$$
 
-$$C = \\\{ x : h(x) = 1, h_t(x) = 2 \\\}$$
+$$C = \{ x : h(x) = 1, h_t(x) = 2 \}$$
 
-$$D = \\\{ x : h(x) = h_t(x) = 1 \\\}.$$
+$$D = \{ x : h(x) = h_t(x) = 1 \}.$$
 
 Then,
 
