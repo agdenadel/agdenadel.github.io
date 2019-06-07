@@ -44,13 +44,13 @@ def main():
 
 This script generates the following plots
 
-![Points distributed uniformly within the square bounded by -1 and 1 on both axes](/images/adaptive-rejection-sampling/uniform_distribution.png)
-![Points distributed uniformly within the circle of radius 1 centered at the origin](/images/adaptive-rejection-sampling/circular_distribution.png)
+![Points distributed uniformly within the square bounded by -1 and 1 on both axes](/images/rejection-sampling/uniform_distribution.png)
+![Points distributed uniformly within the circle of radius 1 centered at the origin](/images/rejection-sampling/circular_distribution.png)
 
 
 The example above is a particular case of rejection sampling where we are using a uniform distribution as our proposal distribution. In general, we aren't limited to using a uniform distribution as a proposal (in fact, our sampling will be more efficient when we use a proposal distribution that more closely approximates the distribution we actually want to sample from). It is necessary that our proposal distribution also "envelopes" the distribution we care about as seen in the figure (the left plot has the two densities, while the right plot has the proposal density multiplied by some constant \\(M\\) so that it is above the other density everywhere..
 
-![Plots demonstrating the envelope principle](/images/adaptive-rejection-sampling/envelope.png)
+![Plots demonstrating the envelope principle](/images/rejection-sampling/envelope.png)
 
 Why do we need to envelope the distribution of interest? Well, if we could sample uniformly from the region below the density function of interest we would be done because this is the same as sampling from the density function itself.
 
@@ -59,7 +59,7 @@ Informally, the algorithm samples a point from some distribution and then decide
 Let \\(p\\) be the distribution of interest and \\(q\\) be the propsal distribution. The rejection sampling algorithm is as follows
 
 1. Sample from the proposal distribution, \\(x \sim q(x)\\)
-2. Sample from a uniform distribution \\(y \sim U(0,1)\\)
+2. Sample from a uniform distribution \\(u \sim U(0,1)\\)
 3. If \\(u < \frac{p(x)}{M q(x)}\\) then accept \\(x\\), otherwise reject \\(x\\).
 
 The intuition for why this works is that for a fixed \\(x\\) only accept according to the ratio of \\(p\\) and \\(q\\) (really \\(M q\\)) which corrects for the areas that we are oversampling due to the envelope principle.
@@ -127,11 +127,11 @@ def main():
 
 Here is a dataset sampled using rejection sampling:
 
-![Histogram of data sampled using rejection sampling](/images/adaptive-rejection-sampling/rejection_samples.png)
+![Histogram of data sampled using rejection sampling](/images/rejection-sampling/rejection_samples.png)
 
 Here is a dataset sampled directly:
 
-![Histogram of data sampled directly from the Gaussian mixture model](/images/adaptive-rejection-sampling/direct_samples.png)
+![Histogram of data sampled directly from the Gaussian mixture model](/images/rejection-sampling/direct_samples.png)
 
 
 ## Adaptive rejection sampling
@@ -145,10 +145,14 @@ This method involves some tedious bookkeeping and computing the intersection of 
 
 There is no reason that this idea of adapting a proposal distribution is limited to rejection sampling. It can also be used to improve the convergence of Metropolis sampling. There are several papers in the citations of the Rejection sampling Wikipedia page that develop this idea.
 
+## Ziggurat algorithm
+
+Another cool variation of rejection sampling is the Ziggurat algorithm. The Wikipedia page has a really nice animation of the idea.
+
 
 ## References
 
-1. https://en.wikipedia.org/wiki/Rejection_sampling
-2. https://wiseodd.github.io/techblog/2015/10/21/rejection-sampling/
-3. https://people.eecs.berkeley.edu/~jordan/courses/260-spring10/lectures/lecture17.pdf
-4. https://en.wikipedia.org/wiki/Ziggurat_algorithm
+1. [https://en.wikipedia.org/wiki/Rejection_sampling](https://en.wikipedia.org/wiki/Rejection_sampling)
+2. [https://wiseodd.github.io/techblog/2015/10/21/rejection-sampling/](https://wiseodd.github.io/techblog/2015/10/21/rejection-sampling/)
+3. [https://people.eecs.berkeley.edu/~jordan/courses/260-spring10/lectures/lecture17.pdf](https://people.eecs.berkeley.edu/~jordan/courses/260-spring10/lectures/lecture17.pdf)
+4. [https://en.wikipedia.org/wiki/Ziggurat_algorithm](https://en.wikipedia.org/wiki/Ziggurat_algorithm)
