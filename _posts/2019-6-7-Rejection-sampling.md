@@ -62,7 +62,7 @@ Let \\(p\\) be the distribution of interest and \\(q\\) be the propsal distribut
 2. Sample from a uniform distribution \\(u \sim U(0,1)\\)
 3. If \\(u < \frac{p(x)}{M q(x)}\\) then accept \\(x\\), otherwise reject \\(x\\).
 
-The intuition for why this works is that for a fixed \\(x\\) only accept according to the ratio of \\(p\\) and \\(q\\) (really \\(M q\\)) which corrects for the areas that we are oversampling due to the envelope principle.
+The intuition for why this works is that for a fixed \\(x\\) only accept according to the ratio of \\(p\\) and \\(q\\) which corrects for the areas that we are oversampling due to the envelope principle.
 
 It is important to note that rejection sampling is very inefficient in high-dimensional spaces because the acceptance probability will almost always be very small. Here is some code implementing rejection sampling for a Gaussian mixture model using a Gaussian distribution as the proposal distribution (the two densities shown above are the densities used in this example):
 
