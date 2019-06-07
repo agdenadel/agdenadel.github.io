@@ -3,9 +3,8 @@ layout: post
 title: Rejection Sampling
 ---
 
-## Rejection Sampling
 
-In order to talk about adaptive rejection sampling we first need to have an understanding of what basic rejection sampling is. The classic example is generating random points uniformly distributed within a circle. The idea is to enclose the circle within a square. It is easy to generate uniform points inside of a square. We do that, and then throw away all points that don't fall inside the circle. Here is some python code that does this:
+Sometimes we want to sample from a distribution that we don't necessarily know how to sample from directly (i.e. it isn't one of the distributions that comes built-in to our favorite software package). The classic example is generating random points uniformly distributed within a circle. The idea is to enclose the circle within a square. It is easy to generate uniform points inside of a square. We do that, and then throw away all points that don't fall inside the circle. Here is some python code that does this:
 
 ```python
 import numpy as np
