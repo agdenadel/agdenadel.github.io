@@ -48,7 +48,7 @@ This script generates the following plots
 ![Points distributed uniformly within the circle of radius 1 centered at the origin](/images/rejection-sampling/circular_distribution.png)
 
 
-The example above is a particular case of rejection sampling where we are using a uniform distribution as our proposal distribution. In general, we aren't limited to using a uniform distribution as a proposal (in fact, our sampling will be more efficient when we use a proposal distribution that more closely approximates the distribution we actually want to sample from). It is necessary that our proposal distribution also "envelopes" the distribution we care about as seen in the figure (the left plot has the two densities, while the right plot has the proposal density multiplied by some constant \\(M\\) so that it is above the other density everywhere..
+The example above is a particular case of rejection sampling where we are using a uniform distribution as our proposal distribution. In general, we aren't limited to using a uniform distribution as a proposal (in fact, our sampling will be more efficient when we use a proposal distribution that more closely approximates the distribution we actually want to sample from). It is necessary that our proposal distribution also "envelopes" the distribution we care about as seen in the figure (the left plot has the two densities, while the right plot has the proposal density multiplied by some constant \\(M\\) so that it is above the other density everywhere.
 
 ![Plots demonstrating the envelope principle](/images/rejection-sampling/envelope.png)
 
