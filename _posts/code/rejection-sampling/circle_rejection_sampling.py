@@ -18,6 +18,7 @@ def circle_uniform_sampling(num_samples):
     square_points = square_uniform_sampling(num_samples)
     return get_points_in_circle(square_points)
 
+
 def plot(data):
     plt.scatter(data[:,0], data[:,1])
     plt.show()
