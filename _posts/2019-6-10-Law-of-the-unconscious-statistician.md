@@ -3,7 +3,7 @@ layout: post
 title: Law of the Unconscious Statistician
 ---
 
-The Law of the Unconscious Statistician is one that I'm pretty sure I've used before, but I'm not sure that I've ever proved. The law is a theorem that states
+The Law of the Unconscious Statistician is something that I'm pretty sure I've used before, but I'm not sure that I've ever proved. The law is a theorem that states
 
 $$E[g(X)] = \int_{\mathbb{R}} g(x) f_X (x) dx$$
 
@@ -11,7 +11,7 @@ where \\(g\\) is some function and \\(X\\) is a random variable with density \\(
 
 $$E[g(X)] = \sum_x  g(x) p_X (x) dx$$
 
-where \\(X\\) has pmf \\(p_X\\). The theorem gets its name from the fact that many people apply this result without having proved it. This is presumably because it seems very intuitive and people often mistake this for the definition of the expectation of \\(E[g(X)]\\) without realizing that the definition of expectation involves the pdf (or pmf) of \\(g(X)\\) not \\(f_X\\) (i.e. if we use the definition we would have \\(E[g(X)] = \int y f_Y(y) dy\\) where \\(Y = g(X)\\)). Let's prove this theorem.
+where \\(X\\) has pmf \\(p_X\\). The theorem gets its name from the fact that many people apply this result without having proved it. This is presumably because it seems very intuitive and people often mistake this for the definition of the expectation of \\(E[g(X)]\\) without realizing that the definition of expectation involves the pdf (or pmf) of \\(g(X)\\) not \\(f_X\\) (i.e. if we use the definition we would have \\(E[g(X)] = \int_{\mathbb{R}} y f_Y(y) dy\\) where \\(Y = g(X)\\)). Let's prove this theorem.
 
 ## Proof
 
@@ -19,19 +19,19 @@ where \\(X\\) has pmf \\(p_X\\). The theorem gets its name from the fact that ma
 
 The discrete case is the most straightforward. Consider
 
-$$ E[g(X)] = \sum_y y f_Y (y)$$
+$$ E[g(X)] = \sum_y y p_Y (y)$$
 
-substitute the definition of \\(f_Y\\)
+substitute the definition of \\(p_Y\\)
 
 $$ = \sum_y y P(g(X) = y) $$
 
 use the definition of \\(g\\)
 
-$$ = \sum_y y \sum_{x : g(x) = y} f_X (x) $$
+$$ = \sum_y y \sum_{x : g(x) = y} p_X (x) $$
 
 use the fact that \\(y = g(x)\\) and re-index 
 
-$$ = \sum_{x} g(x) f_X(x).$$ 
+$$ = \sum_{x} g(x) p_X(x).$$ 
 
 
 ### Continuous case
@@ -74,12 +74,9 @@ $$f_Y(y) = f_X(g^{-1}(y)) \frac{1}{g'(g^{-1}(y))}.$$
 
 Combining this with our integral above yields
 
-$$\int{-{\infty}^{\infty}} g(x) f_X(x) dx = \int_{-\infty}^{\infty} g(x) f_X(x) dx = E[g(X)].$$
+$$\int_{-\infty}^{\infty}} g(x) f_X(x) dx = \int_{-\infty}^{\infty} g(x) f_X(x) dx = E[g(X)].$$
 
 
 ### Measure theoretic version
 
 The measure theoretic version requires a bit more knowledge of measure theoretic probability. I think I'll break this out into a separate post (maybe with the background required).
-
-
-https://en.wikipedia.org/wiki/Law_of_the_unconscious_statistician
