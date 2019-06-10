@@ -62,7 +62,7 @@ $$dx = \frac{1}{g'(g^{-1}(y))} dy.$$
 
 Using this fact we can do a change of variables (also known as a substitution or a \\(u\\)-substitution) to obtain
 
-$$\int{-{\infty}^{\infty}} g(x) f_X(x) dx = \int_{-\infty}^{\infty} y f_X(g^{-1}(y)) \frac{1}{g'(g^{-1}(y))} dy.$$
+$$\int_{-\infty}^{\infty} g(x) f_X(x) dx = \int_{-\infty}^{\infty} y f_X(g^{-1}(y)) \frac{1}{g'(g^{-1}(y))} dy.$$
 
 Then, consider the following fact about the cdf of \\(Y\\) and its relation to the cdf of \\(X\\)
 
@@ -74,7 +74,7 @@ $$f_Y(y) = f_X(g^{-1}(y)) \frac{1}{g'(g^{-1}(y))}.$$
 
 Combining this with our integral above yields
 
-$$\int_{-\infty}^{\infty}} g(x) f_X(x) dx = \int_{-\infty}^{\infty} g(x) f_X(x) dx = E[g(X)].$$
+$$\int_{-\infty}^{\infty}s g(x) f_X(x) dx = \int_{-\infty}^{\infty} g(x) f_X(x) dx = E[g(X)].$$
 
 
 ### Measure theoretic version
