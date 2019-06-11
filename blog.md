@@ -9,6 +9,8 @@ permalink: /blog/
   {% for post in site.posts %}
     <article class="post">
 
+      <h2>{{ post.date | date: "%B %e, %Y" }}</h2>
+
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
       <div class="entry">
