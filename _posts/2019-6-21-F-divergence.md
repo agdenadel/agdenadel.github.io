@@ -46,19 +46,19 @@ Another well-known fact about KL-divergence is that it is not symmetric which pr
 
 1. To see that KL-divergence isn't symmetric, consider \\(p=(1/2, 1/2)\\) and \\(q=(1/3, 2/3)\\). Then, by using the definition directly we get
 
-$$D(p\|\|q) = \frac{1}{2} \log \frac{9}{8} \approx 0.08496$$
+$$D(p\|q) = \frac{1}{2} \log \frac{9}{8} \approx 0.08496$$
 
-$$D(q\|\|p) = \frac{1}{3} \log \frac{2}{3} + \frac{2}{3} \log \frac{4}{3} \approx 0.08170$$
+$$D(q\|p) = \frac{1}{3} \log \frac{2}{3} + \frac{2}{3} \log \frac{4}{3} \approx 0.08170$$
 
 which are not equal.
 
 2. To see that KL-divergence doesn't satisfy the triangle inequality, consider \\(p = (1/2, 1/2), q = (1/3, 2/3), r = (1/4, 3/4)\\). Then we have 
 
-$$D_{KL}(p\|\|q) \approx 0.08496$$
+$$D_{KL}(p\|q) \approx 0.08496$$
 
-$$D_{KL}(q\|\|r) \approx 0.02506$$
+$$D_{KL}(q\|r) \approx 0.02506$$
 
-$$D_{KL}(p\|\|r) \approx 0.20752$$
+$$D_{KL}(p\|r) \approx 0.20752$$
 
 which doesn't satisfy the triangle inequality.
 
