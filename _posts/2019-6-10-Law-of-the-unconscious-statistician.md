@@ -38,7 +38,7 @@ $$ = \sum_{x} g(x) p_X(x).$$
 
 To prove the continuous case, we need a little result from calculus (which looks a little complicated at first glance, but is very simple to derive).
 
-#### Lemma
+#### Lemma (Inverse Function Theorem)
 
 Given \\(y = f(x)\\) and assuming \\(f^{-1}\\) exists, we have
 
@@ -46,7 +46,7 @@ $$f'(x) = \frac{1}{(f^{-1})'(f(x))}.$$
 
 #### Proof of lemma
 
-By assumption we have\\(x = f^{-1}(y) = f^{-1}(f(x))\\). Differentiating yields
+By assumption we have \\(x = f^{-1}(y) = f^{-1}(f(x))\\). Differentiating yields
 
 $$1 = (f^{-1})'(f(x)) f'(x).$$
 
