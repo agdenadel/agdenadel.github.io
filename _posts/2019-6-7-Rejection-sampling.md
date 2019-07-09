@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Rejection Sampling
+tags: algorithms sampling probability
 ---
 
 

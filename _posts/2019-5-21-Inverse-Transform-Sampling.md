@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Inverse Transform Sampling
+tags: algorithms probability sampling
 ---
 
 

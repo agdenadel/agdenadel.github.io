@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Automated Science
+tags: automation industry
 ---
 
 

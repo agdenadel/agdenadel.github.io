@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Law of the Unconscious Statistician
+tags: probability
 ---
 
 The Law of the Unconscious Statistician is something that I'm pretty sure I've used before, but I'm not sure that I've ever proved. The law is a theorem that states

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: IR Sensitivity in Lips
+tags: reading misc
 ---
 
 Today I finished reading Physics for Future Presidents by Richard Muller. I found one short section pretty interesting (not that the rest of the book wasn't interesting) in the discussion of applications of infrared radiation. I have copied it here:

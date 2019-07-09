@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Academic Competitions
+tags: contests
 ---
 
 Over the past week, I've found myself thinking about academic competitions several times. Growing up, the only academic competitions I participated in were my elementary school's annual spelling bee. In high school, I never joined the debate team or DECA or anything else. When I was in college I competed twice in the Mathematical Competition in Modeling (MCM), once as a completely unprepared sophomore and once as a more reasonably prepared senior. I flirted with doing the Putnam exam, but I doubt I would have accomplished much.

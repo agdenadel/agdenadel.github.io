@@ -1,6 +1,7 @@
 ---
 layout: post
 title: f-divergence
+tags: information_theory probability
 ---
 
 There are many applications of the information theoretic idea of **Kullback-Leibler divergence** (also known as KL-divergence and relative entropy). It is a measure of how one probability differs from another. Given two discrete probability distributions \\(p,q\\) defined on the same probability space, the KL-divergence, \\(D\\) between \\(p\\) and \\(q\\) is defined as

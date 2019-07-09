@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Sicherman Dice
+tags: combinatorics generating_functions sicherman_dice
 ---
 
 

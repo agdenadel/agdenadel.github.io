@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Neyman-Pearson Lemma
+tags: statistics probability
 ---
 
 

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: History of Brown's Department of Applied Mathematics
+tags: academia
 ---
 
 The Applied Math department at Brown shared these videos awhile back. I found them pretty interesting and I also found an [undergaduate history thesis](https://www.brown.edu/academics/applied-mathematics/sites/brown.edu.academics.applied-mathematics/files/uploads/Clare%20Kim%20-%20History%20Thesis.pdf) on the history of the department that, while I haven't read it in its entirety, seemed interesting.

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Eigenvalue Properties
+tags: linear_algebra eigenvalues
 ---
 
 When I took the math subject GRE I learned that in order to solve common linear algebra questions on the exam quickly, you should keep in mind a few facts about eigenvalues.
