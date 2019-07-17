@@ -41,7 +41,7 @@ To prove the continuous case, we need a little result from calculus (which looks
 
 #### Lemma (Inverse Function Theorem)
 
-Given \\(y = f(x)\\) and assuming \\(f^{-1}\\) exists, we have
+Given \\(y = f(x)\\) and assuming \\(f^{-1}\\) exists and is differentiable, we have
 
 $$f'(x) = \frac{1}{(f^{-1})'(f(x))}.$$
 
@@ -54,6 +54,10 @@ $$1 = (f^{-1})'(f(x)) f'(x).$$
 which is equivalent to the desired result
 
 $$f'(x) = \frac{1}{(f^{-1})'(f(x))}.$$
+
+### Remark
+
+The lemma above is known as the Inverse Function Theorem, and actually is stated as following: Suppose \\(f\\) is differentiable on some interval of the real line and \\(f'(x) \neq 0\\) for all \\(x\\) in the interval. Then, \\(f\\) is one-to-one on the interval, and the inverse function \\(f^{-1}\\) is continuous and differentiable and the identity above holds. The proof relies on the Intermediate Value Theorem for derivatives.
 
 #### Proof of continuous case
 
