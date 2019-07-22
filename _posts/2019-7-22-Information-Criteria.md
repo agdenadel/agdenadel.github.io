@@ -48,11 +48,11 @@ Wikipedia has a long list of information criteria (along with other criteria for
 * Hannan-Quinn information criterion
 * Watanabe-Akaike information criterion (WAIC)
 
-I'm going to talk about AIC and BIC.
+Two of the most common are AIC and BIC.
 
 ### Akaike Information Criterion
 
-The AIC was introduced by Hirotugu Akaiki in the 1970s. It has a simple definition:
+The AIC was introduced by Hirotugu Akaike in the 1970s. It has a simple definition:
 
 $$AIC = 2p - 2 log \hat{L}$$
 
