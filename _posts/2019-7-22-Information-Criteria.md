@@ -60,7 +60,7 @@ where \\(p\\) is the number of parameters estimated and \\(\hat{L}\\) is the max
 
 ### Bayesian Information Criterion
 
-The BIC is also called the Schwarz information criterion (SIC, SBC, SBIC). It was introduced by Gideon E. Scharz in the 1970s and it also has a simple definition:
+The BIC is also called the Schwarz information criterion (SIC, SBC, SBIC). It was introduced by Gideon E. Schwarz in the 1970s and it also has a simple definition:
 
 $$BIC = log(n) p - 2 log \hat{L}$$
 
