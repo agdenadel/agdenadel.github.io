@@ -10,6 +10,6 @@ Recently, someone else shared [this library](https://github.com/karthik/wesander
 
 ![Wes Anderson Palettes](/images/color-palettes/029-r-color-palettes-wes-anderson-color-palettes-r-1.png)
 
-In case you're interested, here's an example of the plot I created. The top plot shows all of the structural variants that were called by plotting a parabola from startpoint to endpoint with the height representing the confidence of the call (it's very messy because this particular cancer sample has a lot of structural variants). The bottom two figures are both coverage plots and the middle plot is color-coded by copy number variation calls of various types. 
+In case you're interested, here's an example of the plot I created at Illumina. The top plot shows all of the structural variants that were called by plotting a parabola from startpoint to endpoint with the height representing the confidence of the call (it's very messy because this particular cancer sample has a lot of structural variants). The bottom two figures are both coverage plots and the middle plot is color-coded by copy number variation calls of various types. 
 
 ![SV and CNV plot](/images/color-palettes/NA12892-Rep03-combined_S1.summary.png)
