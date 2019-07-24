@@ -10,7 +10,7 @@ I've been inspired by [Tim Stuart](http://timoast.github.io/blog/2016-02-23-pape
 
 Traag, Waltman and van Eck. From Louvain to Leiden: guaranteeing well-connected communities. Scientific Reports. (https://doi.org/10.1038/s41598-019-41695-z)[https://doi.org/10.1038/s41598-019-41695-z]
 
-The Louvain algorithm is a common one for community detection in networks. In this paper the authors discuss a defect in the algorithm that results in communities that have undesired properties (badly connected, disconnected). An alternative algorithm (the Leiden algorithm) is proposed to remedy these problems. It never produces disconnected communities, has fewer badly connected communities, and even runs faster (in some cases musch faster) than Louvain.
+The Louvain algorithm is a common one for community detection in networks. In this paper the authors discuss a defect in the algorithm that results in communities that have undesired properties (badly connected, disconnected). An alternative algorithm (the Leiden algorithm) is proposed to remedy these problems. It never produces disconnected communities, has fewer badly connected communities, and even runs faster (in some cases musch faster) than Louvain. The Leiden algorithm provides a number of guarantees. I can't say that I understand the algorithm right now since I only read the main text and the algorithm is in the supplemental (as are proofs of the guarentees). 
 
 ## July 23, 2019
 
