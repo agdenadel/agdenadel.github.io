@@ -6,6 +6,14 @@ permalink: /papers/
 
 I've been inspired by [Tim Stuart](http://timoast.github.io/blog/2016-02-23-papers/) to try to read a paper every day. I'm going to track my progress here.
 
+## July 26th, 2019
+
+Taylor and Tibshirani. Statistical learning and selective inference. PNAS. [https://doi.org/10.1073/pnas.1507583112](https://doi.org/10.1073/pnas.1507583112)
+
+This paper is an introduction to the idea of selective inference. Selective inference is the idea of properly assessing statistical significance when you have "cherry-picked" the statistical tests that you are running. Exact solutions for this problem are given in the case of testing significance of coefficients identified by forward stepwise regression and LASSO regression. These exact solutions are derived in other papers from the authors. I think this paper was meant to be an introduction to the topic for a broader audience.
+
+
+
 ## July 25, 2019
 
 Zhang, Xu, and Yosef. Simulating multiple faceted variability in single cell RNA sequencing. Nature Communications. [https://doi.org/10.1038/s41467-019-10500-w](https://doi.org/10.1038/s41467-019-10500-w)
