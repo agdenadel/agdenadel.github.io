@@ -6,6 +6,16 @@ permalink: /papers/
 
 I've been inspired by [Tim Stuart](http://timoast.github.io/blog/2016-02-23-papers/) to try to read a paper every day. I'm going to track my progress here.
 
+
+## July 27th, 2019
+
+Efron. Large-Scale Simultaneous Hypothesis Testing: The Choice of a Null Hypothesis. Journal of the American Statistical Association. [https://dx.doi.org/10.1198/016214504000000089](https://dx.doi.org/10.1198/016214504000000089)
+
+This paper develops a strategy for using an empirical Bayes strategy for determining the null distribution of test statistics when conducting multiple hypothesis tests. Efron also discusses using the **local FDR** for inference.
+
+
+
+
 ## July 26th, 2019
 
 Taylor and Tibshirani. Statistical learning and selective inference. PNAS. [https://doi.org/10.1073/pnas.1507583112](https://doi.org/10.1073/pnas.1507583112)
