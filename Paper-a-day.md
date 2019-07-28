@@ -7,6 +7,13 @@ permalink: /papers/
 I've been inspired by [Tim Stuart](http://timoast.github.io/blog/2016-02-23-papers/) to try to read a paper every day. I'm going to track my progress here.
 
 
+## July 28th, 2019
+
+Stensrud and Valberg. Inequality in genetic cancer risk suggests bad genes rather than bad luck. Nature Communications. []()
+
+This is an interesting paper to read soon after the paper by Tomasetti and Vogelstein that I read on July 23rd. While we often estimate heritability of disease using twin studies and GWAS, these heritability estimates are only a single number and tell us nothing about the distribution of genetic risk among the population. In this paper the authors model this distribution in order to understand the **inequality** of genetic cancer risk. There are potentially public health consequences from this. If we can identify the individuals who carry the majority of the heritable risk for cancer, we could preferentially screen them for the cancers that they are most susceptible to.
+
+
 ## July 27th, 2019
 
 Efron. Large-Scale Simultaneous Hypothesis Testing: The Choice of a Null Hypothesis. Journal of the American Statistical Association. [https://dx.doi.org/10.1198/016214504000000089](https://dx.doi.org/10.1198/016214504000000089)
