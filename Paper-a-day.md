@@ -7,6 +7,35 @@ permalink: /papers/
 I've been inspired by [Tim Stuart](http://timoast.github.io/blog/2016-02-23-papers/) to try to read a paper every day. I'm going to track my progress here.
 
 
+## August 1st, 2019
+
+Tian and Taylor. Selective inference with a randomized response. The Annals of Statistics. [doi.org/10.1214/17-AOS1564](doi.org/10.1214/17-AOS1564)
+
+I didn't completely read this paper. There are lemmas in it that I already can't state from memory and I didn't even read the proofs. The big idea is to apply an idea from privacy research (randomized response) to the problem of model selection and inference for linear regression. In randomized response, you (the statistician) artificially add noise to your data before performing your analysis. This is used for research in delicate areas (say on crime where study participants won't necessarily want to answer honestly). For example, participants may flip a coin before answering a question and they will answer honestly if the coin comes up heads and always answer true if the coin comes up tails. You can then subtract out the expected number of "true" responses to find the actual proportion. To use this idea in model selection and inference you add some noise to your data for model selection and then do your inference with the original data. This improves the calibration of your inference (see the paper I read on July 26th).
+
+
+## July 31st, 2019
+
+Efron et al. Empirical Bayes Analysis of a Microarray Experiment. Journal of the American Statistical Association. [https://doi.org/10.1198/016214501753382129](https://doi.org/10.1198/016214501753382129)
+
+This paper describes the use of empirical Bayes for gene expression data. The authors describe a comparative experiment where there are two biological samples (1,2) and these samples are either un-irradiated or irradiated (U,I) with two technical replicates of each resulting in 8 samples: U1A, U1B, I1A, I1B, U2A, U2B, I2A, I2B. Then, the key idea is to use the technical replicates to generate empirical null distributions.
+
+
+
+## July 30th, 2019
+
+Kharchenko et al. Bayesian approach to single-cell differential expression analysis. Nature Methods. [https://doi.org/10.1038/nmeth.2967](https://doi.org/10.1038/nmeth.2967)
+
+This paper describes a Bayesian method for single-cell differential expression that the Kharchenko lab developed called SCDE. A major insight is that there are two types of measured transcripts in two-single cells of the same cell type: correlated transcripts and those affected by dropout. The authors model this situation by using a mixture model with two components. The first is a negative binomial component for the correlated transcripts and then second is a low-magnitude Poisson component for dropout (rather than simply a constant zero component). The EM algorithm is used on each cell to estimate mixture components and then bootstrap is used for differential expression analysis. You can find the software [here](https://hms-dbmi.github.io/scde/).
+
+
+
+## July 29th, 2019
+
+This study evaluates methjods for differential expression analysis in scRNAseq data (SCDE, MAST, scDD, D3E, Monocle2, SINCERA, DEsingle, SigEMD). It briefly describes the model used in each method and then evaluates them all on simulated and real data. Something concerning is the low concordance between methods on real data. Simulations are great, but gold standard single cell data like we have in whole genome sequencing would be nice.
+
+
+
 ## July 28th, 2019
 
 Stensrud and Valberg. Inequality in genetic cancer risk suggests bad genes rather than bad luck. Nature Communications. [https://doi.org/10.1038/s41467-017-01284-y](https://doi.org/10.1038/s41467-017-01284-y)
