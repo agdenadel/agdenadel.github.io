@@ -10,6 +10,8 @@ I've been inspired by [Tim Stuart](http://timoast.github.io/blog/2016-02-23-pape
 
 ## August 28th, 2019
 
+
+
 ## August 27th, 2019
 
 Robert and Casella. A Short History of Markov Chain Monte Carlo: Subjective Recol lections fromIncomplete Data. Statistical Science. [https://http://doi.org/10.1214/10-STS351](https://http://doi.org/10.1214/10-STS351)
@@ -18,8 +20,12 @@ This paper gives a nice history of MCMC from its origins in the Manhattan Projec
 
 ## August 26th, 2019
 
+Chung et al. Statistical significance of variables driving systematic variation in high-dimensional data. Bioinformatics. [https://doi.org/10.1093/bioinformatics/btu674](https://doi.org/10.1093/bioinformatics/btu674)
+
 
 ## August 25th, 2019
+
+Yuan et al. Challenges and emerging directions in single-cell analysis. Genome Biology. [https://dx.doi.org/10.1186%2Fs13059-017-1218-y](https://dx.doi.org/10.1186%2Fs13059-017-1218-y)
 
 
 ## August 24th, 2019
