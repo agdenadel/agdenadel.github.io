@@ -8,6 +8,20 @@ permalink: /papers/
 
 I've been inspired by [Tim Stuart](http://timoast.github.io/blog/2016-02-23-papers/) to try to read a paper every day. I'm going to track my progress here.
 
+## August 28th, 2019
+
+## August 27th, 2019
+
+Robert and Casella. A Short History of Markov Chain Monte Carlo: Subjective Recol lections fromIncomplete Data. Statistical Science. [https://http://doi.org/10.1214/10-STS351](https://http://doi.org/10.1214/10-STS351)
+
+This paper gives a nice history of MCMC from its origins in the Manhattan Project through the so-called MCMC revolution.
+
+## August 26th, 2019
+
+
+## August 25th, 2019
+
+
 ## August 24th, 2019
 
 Ranganath et al. Black Box Variational Inference. PMLR. [http://proceedings.mlr.press/v33/ranganath14.html](http://proceedings.mlr.press/v33/ranganath14.html)
@@ -22,6 +36,9 @@ Wherry. T cell exhaustion. Nature Immunology. [https://doi.org/10.1038/ni.2035](
 ## August 22nd, 2019
 
 Yang et al. An enhanced genetic model of colorectal cancer progression history. Genome Biology. [https://doi.org/10.1186/s13059-019-1782-4](https://doi.org/10.1186/s13059-019-1782-4)
+
+
+
 
 
 
@@ -133,12 +150,23 @@ Ben Raphael's lab has released another improvement to the HotNet algorithm. The 
 
 Sugden et al. Localization of adaptive variants in human genomes using averaged one-dependence estimation. Nature Communications. [http://doi.org/10.1038/s41467-018-03100-7](http://doi.org/10.1038/s41467-018-03100-7)
 
+This paper presents a method called SWIF(r) (SWeep Inference Framework (controlling for correlation)). SWIF(r) uses AODEs to idenfity selective sweeps. In particular, SWIF(r) computes the per-site calibrated probability of a selective sweep. Posterior probablities are calibrated empirically and the model is trained using simulations of hard sweeps. The authors used SWIF(r) to identify known adaptive mutations in humans as well as to  identify previously unidentified adaptive variants in genomic data from the ‡Khomani San, a hunter-gatherer population in southern Africa.
+
 
 
 ## August 4th, 2019
 
 Webb et al. Not So Naive Bayes: Aggregating One-Dependence Estimators. Machine Learning. [https://doi.org/10.1007/s10994-005-4258-6](https://doi.org/10.1007/s10994-005-4258-6)
 
+This paper introduces Averaged One-Dependence Estimators (AODEs), a generalization of the naive Bayes method that includes some dependence between features. While you could include any level of conditional relationships in your model, this can quickly create a combinatorial search space for model selection. Instead, AODEs include a small subset of possible models and average between them rather than attempting to do model selection. For any feature, \\(x_i\\) we have
+
+$$P(y,x) = P(y,x_i) P(x|y,x_i)$$
+
+and since this is true for all features, we can also average over some collection of \\(m\\) of them
+
+$$P(y,x) = \frac{\sum_{i=1}^m P(y,x_i) P(x|y,x_i)}{m}.$$
+
+This is the key insight behind AODEs. Instead of assuming independence between features, we instead choose a subset of \\(m\\) of them and estimate conditional distributions over all other features given that one (hence **one-dependence estimators**) and then we average each of these estimators (hence **averaged** one-dependence estimators).
 
 
 ## August 3rd, 2019
