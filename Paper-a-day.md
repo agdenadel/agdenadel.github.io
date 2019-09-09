@@ -18,9 +18,8 @@ David Mumford. The Dawning of the Age of Stochasticity.
 
 This was an optional reading for the probability course I am taking this semester. Mumford claims that this article is meant to be a polemic article. An interesting idea proposed is 
 
-```
-The reductionist approach defines random variables in terms of measures, which are defined in terms of the theory of the reals, which are defined in terms of set theory, which is defined on top of predicate calculus. I'd like to propose instead that it should be possible to put random variables into the very foundations of both logic and mathematics and arrive at a more complete and more transparent formulation of the stochastic point of view. I do not have a complete formulation of this, but a sketch which draws on two sources I find very provocative.
-```
+
+> The reductionist approach defines random variables in terms of measures, which are defined in terms of the theory of the reals, which are defined in terms of set theory, which is defined on top of predicate calculus. I'd like to propose instead that it should be possible to put random variables into the very foundations of both logic and mathematics and arrive at a more complete and more transparent formulation of the stochastic point of view. I do not have a complete formulation of this, but a sketch which draws on two sources I find very provocative.
 
 I can't say I completely understood the formalism sketched out. Also interesting are the discussions of SDEs and Bayesian inference.
 
