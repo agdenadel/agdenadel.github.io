@@ -8,7 +8,57 @@ permalink: /papers/
 
 I've been inspired by [Tim Stuart](http://timoast.github.io/blog/2016-02-23-papers/) to try to read a paper every day. I'm going to track my progress here.
 
+I have fallen off since the semester has started so I'm going to stop updating this page.
 
+
+
+
+## September 21th, 2019
+
+Samuel. Some Studies in Machine Learning Using the Game of Checkers.
+
+## September 20th, 2019
+
+Mattick. Rocking the foundations of molecular genetics. PNAS. []()
+
+## September 19th, 2019
+
+Lee et al. Simultaneous profiling of 3D genome structure and DNA methylation in single human cells. Nature Methods. []()
+
+## September 18th, 2019
+
+Finotello. Next-generation computational tools for interrogating cancer immunity. Nature Reviews Genetics. []()
+
+## September 17th, 2019
+
+Scocchia et al. Clinical whole genome sequencing as a first-tier test at a resource-limited dysmorphology clinic in Mexico. Genomic Medicine. []()
+
+## September 16th, 2019
+
+Grishin, Obbad, and Church. Data privacy in the age of personal genomics. Nature Biotechnology. []()
+
+This is a short letter 
+
+
+## September 15th, 2019
+## September 14th, 2019
+## September 13th, 2019
+
+
+## September 12th, 2019
+
+Soneson et al. A comprehensive examination of Nanopore native RNA sequencing for characterization of complex transcriptomes. Nature Communications. [https://doi.org/10.1038/s41467-019-11272-z](https://doi.org/10.1038/s41467-019-11272-z)
+
+This paper investigates the direct sequencing of RNA molecules that was recently announced by ONT. The takeaway for me is that while this new method of RNA sequencing may find useful applications, it is not a panacea for all applications and has its own issues.
+
+
+## September 11th, 2019
+
+## September 10th, 2019
+
+
+
+## September 9th, 2019
 
 
 
@@ -29,10 +79,7 @@ I can't say I completely understood the formalism sketched out. Also interesting
 
 Bageritz et al. Gene expression atlas of a developing tissue by single cell expression correlation analysis. Nature Methods. [https://doi.org/10.1038/s41592-019-0492-x](https://doi.org/10.1038/s41592-019-0492-x)
 
-
-
-
-
+This paper does some cool spatial transcriptomics in order to generate an atlas of the developing Drosophila wing. I am especially impressed by Figure 3. I didn't read this deeply, but it seems that they used a subset of genes (mapping genes) known to have spatially distinct patterns and generated maps for other genes using correlation to the mapping genes.
 
 
 
@@ -100,10 +147,9 @@ and then \\(y_{ij}\\) is either kept or set to 0 depending on the value of \\(h_
 
 ## August 30th, 2019
 
+Petti et al. A general approach for detecting expressed mutations in AML cells using single cell RNA-sequencing. Nature Communications. [https://doi.org/10.1038/s41467-019-11591-1](https://doi.org/10.1038/s41467-019-11591-1)
 
-
-
-
+This paper describes a nice AML study where the authors performed eWGS (enhanced WGS, i.e. they used enrichment capture for the exome on top of WGS in order to get high coverage of the exome while simultaneously getting genome-wide coverage.), bulk RNAseq, and scRNAseq. They used a tool called cb_sniffer to do single cell pileups (and validated with the additional data) and used SciClone to infer the clonal architecture of each tumor.
 
 
 
@@ -135,6 +181,7 @@ This paper gives a nice history of MCMC from its origins in the Manhattan Projec
 
 Chung et al. Statistical significance of variables driving systematic variation in high-dimensional data. Bioinformatics. [https://doi.org/10.1093/bioinformatics/btu674](https://doi.org/10.1093/bioinformatics/btu674)
 
+This paper introduces a new approach called the **jackstraw** that identifies genomic variables that are statistically significantly associated with any subset or linear combination of PCs.
 
 
 
@@ -162,10 +209,7 @@ Ranganath et al. Black Box Variational Inference. PMLR. [http://proceedings.mlr.
 
 Wherry. T cell exhaustion. Nature Immunology. [https://doi.org/10.1038/ni.2035](https://doi.org/10.1038/ni.2035)
 
-This is a review on T cell exhaustion, which is the dysfunction or removal of antigen-specific T cells during chronic insults (infection, cancer etc.). 
-
-
-
+This is a review on T cell exhaustion, which is the dysfunction or removal of antigen-specific T cells during chronic insults (infection, cancer etc.). This is a really great resource and I imagine that I will refer back to it in the future. Especially interesting from the perspective of scRNAseq users is that there are transcriptional phenotypes of exhaution and that exhausted cells of the same type are as dissimilar as different cell types.
 
 
 
@@ -282,6 +326,8 @@ Langan et al. De novo design of bioactive protein switches. Nature. [https://doi
 ## August 9th, 2019
 
 van Dijk et al. Recovering Gene Interactions from Single-Cell Data Using Data Diffusion. Cell. [https://doi.org/10.1016/j.cell.2018.05.061](https://doi.org/10.1016/j.cell.2018.05.061)
+
+This paper introduces MAGIC (Markov affinity-based graph imputation of cells), a method for imputation in scRNAseq data.
 
 
 
