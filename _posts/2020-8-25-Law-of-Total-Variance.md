@@ -16,7 +16,7 @@ $$\text{Var}(Y) = \mathbb{E}[\text{Var}(Y|X)] + \text{Var}(\mathbb{E}[Y|X]).$$
 
 The proof relies on the Law of Total Expectation, the definition of conditional variance, and the fact that \\(\text{Var}(Y) = \mathbb{E}[Y^2] + \mathbb{E}[Y]^2\\). Consider
 
-$$\text{Var}(Y) = \mathbb{E}[Y^2] - \mathbb{E}[Y]^2]$$
+$$\text{Var}(Y) = \mathbb{E}[Y^2] - \mathbb{E}[Y]^2$$
 
 and applying the Law of Total Expectations to both terms yields
 
