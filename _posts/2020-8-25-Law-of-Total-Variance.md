@@ -30,7 +30,7 @@ and noticing the [definition of conditional variance](https://en.wikipedia.org/w
 
 $$ = \mathbb{E}[\text{Var}(Y|X)] + \mathbb{E}[\mathbb{E}[Y|X]^2] - \mathbb{E}[\mathbb{E}[Y|X]]^2$$
 
-and, finally, noticing the definition of the variance of a random variable (where the random variable of interest is \\(\mathbb{E}[Y\|x]\\)) yields the Law of Total Variance
+and, finally, noticing the definition of the variance of a random variable (where the random variable of interest is \\(\mathbb{E}[Y\|X]\\)) yields the Law of Total Variance
 
 $$ = \mathbb{E}[\text{Var}(Y|X)] + \text{Var}(\mathbb{E}[Y|X]).$$
 
