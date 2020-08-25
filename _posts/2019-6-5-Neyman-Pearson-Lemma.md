@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Neyman-Pearson Lemma
-tags: statistics probability
+tags: statistics probability proof
 ---
 
 
