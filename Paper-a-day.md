@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Paper a day
-permalink: /papers/
+permalink: /paper_a_day/
 ---
 
 
