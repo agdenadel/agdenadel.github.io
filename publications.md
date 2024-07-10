@@ -9,6 +9,10 @@ permalink: /publications/
 A knockoff calibration method to avoid over-clustering in single-cell RNA-sequencing
 **A. DenAdel**, M.L. Ramseier, A.W. Navia, A.K. Shalek, S. Raghavan, P.S. Winter, A.P. Amini, L. Crawford
 
+Mutation and cell state compatibility is required and targetable in Ph+ acute lymphoblastic leukemia minimal residual disease
+Peter S Winter, Michelle L Ramseier, Andrew W Navia, Sachit Saksena, Haley Strouf, Nezha Senhaji, **Alan DenAdel**, Mahnoor Mirza, Hyun Hwan An, Laura Bilal, Peter Dennis, Catharine S Leahy, Kay Shigemori, Jennyfer Galvez-Reyes, Ye Zhang, Foster Powers, Nolawit Mulugeta, Alejandro J Gupta, Nicholas Calistri, Alex Van Scoyk, Kristen Jones, Huiyun Liu, Kristen E Stevenson, Siyang Ren, Marlise R Luskin, Charles P Couturier, Ava P Amini, Srivatsan Raghavan, Robert J Kimmerling, Mark M Stevens, Lorin Crawford, David M Weinstock, Scott R Manalis, Alex K Shalek, Mark A Murakami
+
+
 
 ## Journal Articles
 
