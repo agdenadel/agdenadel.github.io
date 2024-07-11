@@ -10,7 +10,7 @@ A knockoff calibration method to avoid over-clustering in single-cell RNA-sequen
 **A. DenAdel**, M.L. Ramseier, A.W. Navia, A.K. Shalek, S. Raghavan, P.S. Winter, A.P. Amini, L. Crawford
 
 Mutation and cell state compatibility is required and targetable in Ph+ acute lymphoblastic leukemia minimal residual disease
-P.S. Winter, M.L. Ramseier, A.W. Navia, S. Saksena, H. Strouf, N. Senhaji, **Alan DenAdel**, M. Mirza, H.H. An, L. Bilal, P. Dennis, C.S. Leahy, K. Shigemori, J. Galvez-Reyes, Y. Zhang, F. Powers, N. Mulugeta, A.J. Gupta, N. Calistri, A.V. Scoyk, K. Jones, H. Liu, K.E. Stevenson, S. Ren, M.R. Luskin, C.P. Couturier, A.P. Amini, S. Raghavan, R.J. Kimmerling, M.M. Stevens, L. Crawford, D.M. Weinstock, S.R. Manalis, A.K. Shalek, M.A. Murakami
+P.S. Winter, M.L. Ramseier, A.W. Navia, S. Saksena, H. Strouf, N. Senhaji, **A. DenAdel**, M. Mirza, H.H. An, L. Bilal, P. Dennis, C.S. Leahy, K. Shigemori, J. Galvez-Reyes, Y. Zhang, F. Powers, N. Mulugeta, A.J. Gupta, N. Calistri, A.V. Scoyk, K. Jones, H. Liu, K.E. Stevenson, S. Ren, M.R. Luskin, C.P. Couturier, A.P. Amini, S. Raghavan, R.J. Kimmerling, M.M. Stevens, L. Crawford, D.M. Weinstock, S.R. Manalis, A.K. Shalek, M.A. Murakami
 
 
 
