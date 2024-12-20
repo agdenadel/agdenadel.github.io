@@ -6,6 +6,9 @@ permalink: /publications/
 
 ## Preprints
 
+Evaluating the role of pre-training dataset size and diversity on single-cell foundation model performance
+**A. DenAdel**, M. Hughes, A. Thoutam, A. Gupta, A.W. Navia, N. Fusi, S. Raghavan, P.S. Winter, A.P. Amini, L. Crawford
+
 A knockoff calibration method to avoid over-clustering in single-cell RNA-sequencing
 **A. DenAdel**, M.L. Ramseier, A.W. Navia, A.K. Shalek, S. Raghavan, P.S. Winter, A.P. Amini, L. Crawford
 
