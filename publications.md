@@ -16,7 +16,7 @@ P.S. Winter, M.L. Ramseier, A.W. Navia, S. Saksena, H. Strouf, N. Senhaji, **A. 
 
 ## Journal Articles
 
-AArtificial variables help to avoid over-clustering in single-cell RNA-sequencing (2025)
+Artificial variables help to avoid over-clustering in single-cell RNA-sequencing (2025)
 **A. DenAdel**, M.L. Ramseier, A.W. Navia, A.K. Shalek, S. Raghavan, P.S. Winter, A.P. Amini, L. Crawford. *American Journal of Human Genetics*.
 
 
