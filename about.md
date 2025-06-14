@@ -8,4 +8,4 @@ Alan DenAdel obtained his Ph.D. in Computer Science and Computational Biology fr
 
 ### Contact me
 
-[alan_denadel@brown.edu](mailto:alan_denadel@brown.edu)
+[agdenadel@gmail.com](mailto:agdenadel@gmail.com)
