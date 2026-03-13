@@ -7,7 +7,7 @@ permalink: /publications/
 ## Preprints
 
 Evaluating the role of pre-training dataset size and diversity on single-cell foundation model performance
-**A. DenAdel**, M. Hughes, A. Thoutam, A. Gupta, A.W. Navia, N. Fusi, S. Raghavan, P.S. Winter, A.P. Amini, L. Crawford (Under review at Nature Methods)
+**A. DenAdel**, M. Hughes, A. Thoutam, A. Gupta, A.W. Navia, N. Fusi, S. Raghavan, P.S. Winter, A.P. Amini, L. Crawford (Accepted, Nature Methods)
 
 
 Mutation and cell state compatibility is required and targetable in Ph+ acute lymphoblastic leukemia minimal residual disease
