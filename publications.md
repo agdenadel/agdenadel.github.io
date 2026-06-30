@@ -6,15 +6,16 @@ permalink: /publications/
 
 ## Preprints
 
-Evaluating the role of pre-training dataset size and diversity on single-cell foundation model performance
-**A. DenAdel**, M. Hughes, A. Thoutam, A. Gupta, A.W. Navia, N. Fusi, S. Raghavan, P.S. Winter, A.P. Amini, L. Crawford (Accepted, Nature Methods)
-
-
 Mutation and cell state compatibility is required and targetable in Ph+ acute lymphoblastic leukemia minimal residual disease
 P.S. Winter, M.L. Ramseier, A.W. Navia, S. Saksena, H. Strouf, N. Senhaji, **A. DenAdel**, M. Mirza, H.H. An, L. Bilal, P. Dennis, C.S. Leahy, K. Shigemori, J. Galvez-Reyes, Y. Zhang, F. Powers, N. Mulugeta, A.J. Gupta, N. Calistri, A.V. Scoyk, K. Jones, H. Liu, K.E. Stevenson, S. Ren, M.R. Luskin, C.P. Couturier, A.P. Amini, S. Raghavan, R.J. Kimmerling, M.M. Stevens, L. Crawford, D.M. Weinstock, S.R. Manalis, A.K. Shalek, M.A. Murakami (Under review)
 
 
 ## Journal Articles
+
+Evaluating the role of pre-training dataset size and diversity on single-cell foundation model performance (2026)
+**A. DenAdel**, M. Hughes, A. Thoutam, A. Gupta, A.W. Navia, N. Fusi, S. Raghavan, P.S. Winter, A.P. Amini, L. Crawford *Nature Methods*
+
+Genomic insights into endometriosis, adenomyosis, and uterine fibroids for teh clinician. M. DenAdel, C. Hamilton, A. Frankel, **A. DenAdel**, M. Dahlman
 
 Artificial variables help to avoid over-clustering in single-cell RNA-sequencing (2025)
 **A. DenAdel**, M.L. Ramseier, A.W. Navia, A.K. Shalek, S. Raghavan, P.S. Winter, A.P. Amini, L. Crawford. *American Journal of Human Genetics*.
