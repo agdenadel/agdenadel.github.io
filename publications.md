@@ -15,7 +15,7 @@ P.S. Winter, M.L. Ramseier, A.W. Navia, S. Saksena, H. Strouf, N. Senhaji, **A. 
 Evaluating the role of pre-training dataset size and diversity on single-cell foundation model performance (2026)
 **A. DenAdel**, M. Hughes, A. Thoutam, A. Gupta, A.W. Navia, N. Fusi, S. Raghavan, P.S. Winter, A.P. Amini, L. Crawford *Nature Methods*
 
-Genomic insights into endometriosis, adenomyosis, and uterine fibroids for teh clinician. M. DenAdel, C. Hamilton, A. Frankel, **A. DenAdel**, M. Dahlman
+Genomic insights into endometriosis, adenomyosis, and uterine fibroids for the clinician. M. DenAdel, C. Hamilton, A. Frankel, **A. DenAdel**, M. Dahlman. *Current Opinions in Obstetrics and Gynecology*
 
 Artificial variables help to avoid over-clustering in single-cell RNA-sequencing (2025)
 **A. DenAdel**, M.L. Ramseier, A.W. Navia, A.K. Shalek, S. Raghavan, P.S. Winter, A.P. Amini, L. Crawford. *American Journal of Human Genetics*.
